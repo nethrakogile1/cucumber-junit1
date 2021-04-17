@@ -1,0 +1,324 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10428091200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am able to navigate onto the login page",
+            "match": {
+              "location": "stepdefinition.steps.i_am_able_to_navigate_onto_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-17T09:37:15.171Z",
+        "line": 31,
+        "name": "Test Login with Different data",
+        "description": "",
+        "id": "login-features;test-login-with-different-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 79004900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I enter the username as \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinition.steps.i_enter_the_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46942400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I enter the password as \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinition.steps.i_enter_the_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2829154800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click on the Login button",
+            "match": {
+              "location": "stepdefinition.steps.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003cWelcome [Paul]\u003e but was:\u003cWelcome [Rishikesh]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat stepdefinition.steps.i_should_see_the_user_name_as(steps.java:58)\r\n\tat ✽.I should see the user name as \"Welcome Rishikesh\"(file:///C:/Users/NETHRAVATHIGOPALAGOW/git/repository/cucumberjunit/BDD-B10/src/test/resources/Login/Login.feature:27)\r\n",
+              "duration": 76674800,
+              "status": "failed"
+            },
+            "line": 27,
+            "name": "I should see the user name as \"Welcome Rishikesh\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Welcome Rishikesh\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepdefinition.steps.i_should_see_the_user_name_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10118917600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am able to navigate onto the login page",
+            "match": {
+              "location": "stepdefinition.steps.i_am_able_to_navigate_onto_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-17T09:37:28.770Z",
+        "line": 32,
+        "name": "Test Login with Different data",
+        "description": "",
+        "id": "login-features;test-login-with-different-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 50487800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I enter the username as \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinition.steps.i_enter_the_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36348700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I enter the password as \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinition.steps.i_enter_the_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2913203300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click on the Login button",
+            "match": {
+              "location": "stepdefinition.steps.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003cWelcome [Paul]\u003e but was:\u003cWelcome [Rishikesh]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat stepdefinition.steps.i_should_see_the_user_name_as(steps.java:58)\r\n\tat ✽.I should see the user name as \"Welcome Rishikesh\"(file:///C:/Users/NETHRAVATHIGOPALAGOW/git/repository/cucumberjunit/BDD-B10/src/test/resources/Login/Login.feature:27)\r\n",
+              "duration": 72968600,
+              "status": "failed"
+            },
+            "line": 27,
+            "name": "I should see the user name as \"Welcome Rishikesh\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Welcome Rishikesh\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepdefinition.steps.i_should_see_the_user_name_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9537704800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am able to navigate onto the login page",
+            "match": {
+              "location": "stepdefinition.steps.i_am_able_to_navigate_onto_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-17T09:37:41.983Z",
+        "line": 35,
+        "name": "Login with Nagative data",
+        "description": "",
+        "id": "login-features;login-with-nagative-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 44517900,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I enter the username as \"nethra\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"nethra\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinition.steps.i_enter_the_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27340800,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I enter the password as \"kogile\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kogile\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinition.steps.i_enter_the_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 967762700,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I click on the Login button",
+            "match": {
+              "location": "stepdefinition.steps.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1550796500,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I should see the error message as \"invalid user name\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"invalid user name\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepdefinition.steps.i_should_see_the_error_message_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@invalidlogin"
+          }
+        ]
+      }
+    ],
+    "name": "Login features",
+    "description": "This feature includes sceanrio that would be validate the following feature\n1) Login as Admin\n2) Login as kogile\n3) Login with Nagative data",
+    "id": "login-features",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Login/Login.feature",
+    "tags": []
+  }
+]
